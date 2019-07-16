@@ -46,7 +46,55 @@ public class ItemDaoTest {
 
 
     @Test
-    public void addGetDeleteCustomer() {
-        
+    public void addGetDeleteItem() {
+        Item item = new Item();
+        item.setName("");
+        item.setDescription("");
+        item.setDaily_rate("");
+
+        item = itemDao.addItem(item);
+
+        Item item1 = itemDao.getItem(item.getId());
+
+        assertEquals(item1, item);
+
+        itemDao.deleteItem(item.getId());
+
+        item1 = itemDao.getItem(item.getId());
+
+        assertNull(item1);
     }
+
+    @Test
+    public void getAllItems() {
+
+        Item item = new Item();
+        item.setName("");
+        item.setDescription("");
+        item.setDaily_rate("");
+
+        item = itemDao.addItem(item);
+
+        List<Item> itemList = itemDao.getAllItems();
+
+        assertEquals(itemList.size(), 1);
+    }
+
+    @Test
+    public void updateItem() {
+
+        Item item = new Item();
+        item.setName("");
+        item.setDescription("");
+        item.setDaily_rate("");
+
+        item = itemDao.addItem(item);
+
+        itemDao.updateItem(item);
+
+        Item item1 = itemDao.getItem(item.getId());
+        assertEquals(item1, item);
+    }
+
+    
 }
