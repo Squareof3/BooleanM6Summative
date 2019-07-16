@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cc10cb6-8571-47d9-9232-5fc90590c96f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/BooleanM6Summative/dao/ItemDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/BooleanM6Summative/dao/ItemDaoTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="6cc10cb6-8571-47d9-9232-5fc90590c96f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/company/BooleanM6Summative/dao/CustomerDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-627">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -46,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/company/BooleanM6Summative/dao/ItemDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="663">
+              <caret line="47" column="9" selection-end-line="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,6 +183,11 @@
             <path>
               <item name="BooleanM6Summative" type="b2602c69:ProjectViewProjectNode" />
               <item name="BooleanM6Summative" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BooleanM6Summative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BooleanM6Summative" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -238,15 +238,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="BooleanM6Summative" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BooleanM6Summative" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BooleanM6Summative" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BooleanM6Summative" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BooleanM6Summative" type="b2602c69:ProjectViewProjectNode" />
@@ -306,7 +297,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="730" y="0" width="710" height="900" extended-state="0" />
+    <frame x="664" y="0" width="776" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.50149703" />
@@ -349,18 +340,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/company/BooleanM6Summative/dao/CustomerDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/company/BooleanM6Summative/dao/ItemDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        <state relative-caret-position="663">
+          <caret line="47" column="9" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
