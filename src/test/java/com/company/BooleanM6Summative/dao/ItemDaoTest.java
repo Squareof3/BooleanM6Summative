@@ -46,4 +46,7 @@ public class ItemDaoTest {
 
 
     @Test
+    public void addGetDeleteCustomer() {
+        
+    }
 }
